@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Celebrity DJs</string>
+
+    <string name="company_name">Celebrity Sound and Light</string>
+    <string name="company_address">"0 Governor's Ave., Suite B3, Medford, MA 02155"</string>
+    <string name="facebook_page_link">"https://www.facebook.com/celebritysoundandlight?ref=aymt_homepage_panel"</string>
+    <string name="twitter_page_link">"https://twitter.com/CelebrityDJMC"</string>
+    <string name="pinterst_page_link">"https://www.pinterest.com/celebritysounda/"</string>
+
+    <string name="home">HOME</string>
+    <string name="services">SERVICES</string>
+    <string name="contact">CONTACT</string>
+
+    <string name="home_title">CELEBRITY SOUND AND LIGHT</string>
+    <string name="home_subtitle">FOR ALL YOUR EVENT NEEDS</string>
+
+    <string name="about_us_title">Who We Are</string>
+    <string name="about_us_text1">Our goal at Celebrity Sound and Light is to provide
+        our clients with professional entertainment that will have them and their guests
+        dancing the night away without a \"cheese factor\" or a DJ who feels the
+        needs to be the center of attention. You might say that our gimmick is our professionalism.
+        We don\'t draw attention to ourselves - we draw attention to the dance floor.</string>
+    <string name="about_us_text2">
+        As one of Boston\'s premier DJ and lighting services, we are always committed to excellence.
+        We are reliable, experienced, pleasing, and cooperative individuals with professional
+        equipment and liability insurance; we have a level of personal service that makes
+        our prices an excellent value.</string>
+
+    <string name="contact_title">Contact Us</string>
+
+    <string name="request_title">Request</string>
+    <string name="select_dj">Select DJ</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_artist">Enter Artist</string>
+    <string name="submit">Submit</string>
+
+    <string name="login_title">Login</string>
+    <string name="login">Login</string>
+    <string name="enter_username">Username</string>
+    <string name="enter_password">Password</string>
+    <string name="create_account">Create</string>
+
+    <string name="logout_logout">Logout</string>
+</resources>

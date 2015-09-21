@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1.0">
+
+
+    <!-- the padding is to compensate for the
+        off-center appearance of the logo image -->
+    <ImageView
+        android:id="@+id/actionbar_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="-8dp"
+        android:paddingTop="5dp"
+        android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/actionbar_home"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="@string/home"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/actionbar_services"
+            android:layout_width="0dp"
+            android:layout_weight="0.375"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:text="@string/services"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/actionbar_contact"
+            android:layout_width="0dp"
+            android:layout_weight="0.35"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="27dp"
+            android:text="@string/contact"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+
+</LinearLayout>

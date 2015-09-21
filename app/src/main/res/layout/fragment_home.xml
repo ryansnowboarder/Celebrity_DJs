@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivityFragment"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/black"
+        android:text="@string/home_title"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:background="@color/black"
+        android:text="@string/home_subtitle"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/home_request"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@color/dark_orange"
+        android:text="Request"
+        android:textSize="30dp"
+        android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/home_about_us"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@color/dark_orange"
+            android:text="About Us"
+            android:textSize="30dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/home_contact"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/dark_orange"
+            android:gravity="center"
+            android:text="Contact"
+            android:textSize="30dp"
+            android:textColor="@color/white"/>
+
+</LinearLayout>

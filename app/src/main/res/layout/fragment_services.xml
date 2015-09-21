@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="Gold"
+            android:textSize="40dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:background="@color/dark_orange"
+            android:gravity="center"
+            android:text="4 hours\nprofessional sound \nprofessional lighting\n$975"
+            android:textSize="16dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="Platinum"
+            android:textSize="40dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:background="@color/dark_orange"
+            android:gravity="center"
+            android:text="5 hours\nprofessional sound\nprofessional lighting\nplus up lighting\n$1,495"
+            android:textSize="16dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="Diamond"
+            android:textSize="40dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:background="@color/dark_orange"
+            android:gravity="center"
+            android:text="6 hours\nprofessional sound\nprofessional lighting\n plus up lighting\nintellingent lighting\nceremony or cocktail hour\n$2,295"
+            android:textSize="16dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="Add-Ons"
+            android:textSize="40dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:background="@color/dark_orange"
+            android:gravity="center"
+            android:text="ceremony - $395\n cocktail hour - $395\nup lighting - $399\nintelligent lighting - $399\n additional hour(s) - $199ea"
+            android:textSize="16dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</ScrollView>
